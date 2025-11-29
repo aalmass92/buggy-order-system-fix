@@ -13,7 +13,7 @@ class Order:
             return "Empty Order"
         return total
 
-    def add_item(self, item_name, quantity, price)
+    def add_item(self, item_name, quantity, price):
         self.items.append((item_name, quantity, price))  
 
     def remove_item(self, item_name):
