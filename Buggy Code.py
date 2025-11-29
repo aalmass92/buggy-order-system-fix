@@ -25,7 +25,7 @@ class Order:
         print("Order Summary for", self.customer_name)
         for item in self.itemz: 
             print(f"{item[1]} x {item[0]} @ ${item[2]:.2f}")
-        print("Total: $", self.calculate_total()
+        print("Total: $", self.calculate_total())
 
     def apply_discount(self, code): 
         if code == "SAVE10":
